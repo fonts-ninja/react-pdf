@@ -40,6 +40,7 @@ class Canvas extends Base {
         painter(this.root.instance),
         availableWidth,
         availableHeight,
+        this.root.instance
       );
     }
 
